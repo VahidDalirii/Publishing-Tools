@@ -211,7 +211,7 @@ Navbar
   width: 85px;
 }
 .navbar {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -219,12 +219,13 @@ Navbar
   display: flex;
   align-items: center;
   z-index: 200;
-  background: var(--clr-white);
+  background: var(--clr-white);  
 }
 .nav-center {
   width: 90vw;
   max-width: 1170px;
   margin: 0 auto;
+  background-color:rgb(255, 255, 255,0.8);
 }
 .nav-header {
   display: flex;
