@@ -12,7 +12,7 @@ const Project = ({ description, title, github, stack, url, image, index }) => {
       <div className="project-info">
         <span className="project-number">0{index + 1}.</span>
         {/* if title is not supplied, set a defualt title */}
-        <h3>{title || "Projekt"}</h3>
+        <h3>{title || "Project"}</h3>
         <p className="project-description">{description}</p>
         <div className="project-stack">
           {stack.map(item => {

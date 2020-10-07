@@ -12,7 +12,7 @@ const ProjectsPage = ({
   return (
     <Layout>
       <section className="project-page">
-        <Projects projects={projects} title="Alla projekt" />
+        <Projects projects={projects} title="All projects" />
       </section>
     </Layout>
   )

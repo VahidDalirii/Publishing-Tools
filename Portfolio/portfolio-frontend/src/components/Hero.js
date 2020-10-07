@@ -88,7 +88,7 @@ const Hero = () => {
             - 📫 How to reach me: use the link below
             <br />
             <Link to="/contact" className="btn">
-              kontakta mig
+              Contact me
             </Link>
             <SocialLinks />
           </div>

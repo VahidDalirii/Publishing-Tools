@@ -429,8 +429,9 @@ Hero
 }
 .hero-img {
   display: none;
-  width: 40%;
-  margin-left: 35%;
+  border-radius: 50%;
+  width: 70%;
+  margin-left: 25%;
 }
 .hero-info h4 {
   color: var(--clr-grey-5);
