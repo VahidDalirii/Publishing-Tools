@@ -17,6 +17,6 @@ export default [
     id: 3,
     icon: <FaSitemap className="service-icon" />,
     title: "Full Stack Developer",
-    text: `As a full stack developer, i working on both client-side and server-side software. This means i can work with Front End Technology, Back End Development Languages, Database, Server, API, and version Controlling Systems.`,
+    text: `As a full stack developer, i am working on both client-side and server-side software. This means i can work with Front End Technology, Back End Development Languages, Database, Server, API, and version Controlling Systems.`,
   },
 ]

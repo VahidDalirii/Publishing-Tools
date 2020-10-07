@@ -34,11 +34,9 @@ const Hero = () => {
             <h1>I'm Vahid</h1>
             <div className="underline"></div>
             <h4>System developer at Centiro Solutions AB</h4>
-            - 🔭 I’m currently working on my own Portfolio site
+            - 🔭 I’m currently working on Centiro Solutions as a backend developer
             <br />
             - 🌱 I’m currently learning React, Gatsby, GraphQL and Strapi
-            <br />
-            - 🤔 I’m looking for any help with any backend or frontend :)
             <br />
             - 💬 Ask me about Space and Galexies
             <br />
@@ -46,41 +44,41 @@ const Hero = () => {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://strapi.io/documentation/v3.x/getting-started/introduction.html"
+              href="https://docs.microsoft.com/en-us/dotnet/csharp/"
             >
-              Strapi
+              C#
             </a>
             ,{" "}
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://reactjs.org/docs/getting-started.html"
+              href="https://www.microsoft.com/en-us/sql-server/sql-server-2019"
             >
-              React
+              MSSQL
             </a>
             ,{" "}
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://www.gatsbyjs.org/docs/"
+              href="https://www.javascript.com/"
             >
-              Gatsby
+              Javascript
             </a>{" "}
             ,{" "}
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://styled-components.com/docs"
+              href="https://www.mongodb.com/"
             >
-              Styled Components
+              MongoDB
               </a>{" "}
             ,{" "}
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://docs.microsoft.com/en-us/dotnet/csharp/"
+              href="https://azure.microsoft.com/en-us/services/devops/"
             >
-              C#
+              Azure DevOps
             </a>{" "}
             <br />
             - ⚡ Fun fact: I used to be a scientist :)

@@ -207,7 +207,9 @@ p {
 Navbar
 ===============
 */
-
+.logo{
+  width: 85px;
+}
 .navbar {
   position: absolute;
   top: 0;
@@ -246,6 +248,7 @@ Navbar
 .nav-links {
   display: none;
 }
+
 @media screen and (min-width: 768px) {
   .toggle-btn {
     display: none;
@@ -898,7 +901,7 @@ About Page
 }
 .about-img {
   margin-bottom: 2rem;
-  height: 25rem;
+  height: 35rem;
 }
 .about-text .section-title {
   margin-bottom: 2rem;
