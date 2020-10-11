@@ -31,30 +31,20 @@ const Hero = () => {
       <div className="section-center hero-center">
         <article className="hero-info">
           <div>
-            <h1>I'm Vahid</h1>
+            <h1>Vahid Daliri</h1>
             <div className="underline"></div>
-            <h4>System developer at Centiro Solutions AB</h4>
-            - 🔭 I’m currently working on Centiro Solutions as a backend developer
-            <br />
-            - 🌱 I’m currently learning React, Gatsby, GraphQL and Strapi
-            <br />
-            - 💬 Ask me about Space and Galexies
-            <br />
-            - 😄 Pronouns: Inquisitive, break the mold, responsible. <br />- 💜{" "}
+            <br/>
+            <h4>Systemutvecklare på Centiro Solutions</h4>
+            <br/>
+            - Jag arbetar för närvarande på Centiro Solutions som systemutvecklare
+            <br /><br/>
+            - Tekniska kompetenser:{" "}   
             <a
               target="_blank"
               rel="noopener noreferrer"
               href="https://docs.microsoft.com/en-us/dotnet/csharp/"
             >
-              C#
-            </a>
-            ,{" "}
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://www.microsoft.com/en-us/sql-server/sql-server-2019"
-            >
-              MSSQL
+             C#
             </a>
             ,{" "}
             <a
@@ -64,6 +54,14 @@ const Hero = () => {
             >
               Javascript
             </a>{" "}
+            ,{" "}
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.microsoft.com/en-us/sql-server/sql-server-2019"
+            >
+              MSSQL
+            </a>
             ,{" "}
             <a
               target="_blank"
@@ -80,13 +78,13 @@ const Hero = () => {
             >
               Azure DevOps
             </a>{" "}
+            <br /><br/>
+            - Personlighet: Ansvarsfull, strukturerad, glad. <br />
             <br />
-            - ⚡ Fun fact: I used to be a scientist :)
-            <br />
-            - 📫 How to reach me: use the link below
-            <br />
+            - Intressen: Gymma, Simma, Spela Tennis
+            <br /><br/>
             <Link to="/contact" className="btn">
-              Contact me
+              Kontakta mig
             </Link>
             <SocialLinks />
           </div>

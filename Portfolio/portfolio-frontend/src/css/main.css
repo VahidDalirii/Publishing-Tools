@@ -14,17 +14,17 @@ Variables
 :root {
   /* dark shades of primary color*/
   /* --clr-primary-1: hsl(43, 86%, 17%); */
-  --clr-primary-1: hsl(184, 91%, 17%);
+  --clr-primary-1: #FF1D58;
   --clr-primary-2: hsl(185, 84%, 25%);
   --clr-primary-3: hsl(185, 81%, 29%);
-  --clr-primary-4: hsl(184, 77%, 34%);
-  --clr-primary-5: #2caeba;
+  --clr-primary-4: hsl(0, 56%, 34%);
+  --clr-primary-5: #ce2653;
   /* lighter shades of primary color */
   --clr-primary-6: hsl(185, 57%, 50%);
   --clr-primary-7: hsl(184, 65%, 59%);
-  --clr-primary-8: hsl(184, 80%, 74%);
-  --clr-primary-9: hsl(185, 94%, 87%);
-  --clr-primary-10: hsl(186, 100%, 94%);
+  --clr-primary-8: hsl(0, 0%, 3%);
+  --clr-primary-9: hsl(0, 0%, 5%);
+  --clr-primary-10: hsl(0, 0%, 100%);
   /* darkest grey - used for headings */
   --clr-grey-1: hsl(209, 61%, 16%);
   --clr-grey-3: hsl(209, 34%, 30%);
@@ -33,7 +33,7 @@ Variables
   --clr-grey-5: hsl(210, 22%, 49%);
   --clr-grey-8: hsl(210, 31%, 80%);
   --clr-grey-9: hsl(212, 33%, 89%);
-  --clr-grey-10: hsl(210, 36%, 96%);
+  --clr-grey-10: hsl(60, 2%, 80%);
   --clr-green-dark: hsl(125, 67%, 35%);
   --clr-red-dark: hsl(360, 67%, 44%);
   --clr-red-light: hsl(360, 71%, 66%);
@@ -146,6 +146,8 @@ p {
 .btn:hover {
   color: var(--clr-primary-1);
   background: var(--clr-primary-8);
+  color: white;
+  
 }
 .center-btn {
   display: block;
@@ -209,6 +211,7 @@ Navbar
 */
 .logo{
   width: 85px;
+  margin-left: 30px;
 }
 .navbar {
   position: fixed;
@@ -222,9 +225,9 @@ Navbar
   background: var(--clr-white);  
 }
 .nav-center {
-  width: 90vw;
-  max-width: 1170px;
+  width: 100%;
   margin: 0 auto;
+  height: 10vh;
   background-color:rgb(255, 255, 255,0.8);
 }
 .nav-header {
@@ -434,9 +437,14 @@ Hero
 .hero-img {
   display: none;
   border-radius: 50%;
-  width: 70%;
-  height: 60%;
-  margin-left: 25%;
+  width: 60%;
+  height: 50%;
+  margin-left: 35%;
+  transition: transform .8s
+}
+.hero-img:hover{
+  transform: scale(1.2);
+  box-shadow: 7px 7px 10px #ca0338;
 }
 .hero-info h4 {
   color: var(--clr-grey-5);
@@ -520,6 +528,7 @@ Services
 .service:hover {
   background: var(--clr-primary-5);
   color: var(--clr-primary-9);
+  box-shadow: 10px 10px 5px #df4d74;
 }
 .service:hover p {
   color: var(--clr-primary-9);
@@ -657,7 +666,7 @@ Projects
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to bottom right, var(--clr-primary-5), #222);
+  background: linear-gradient(to bottom right, var(--clr-primary-4), #222);
   opacity: 0.85;
   transition: var(--transition);
 }
@@ -903,6 +912,11 @@ About Page
 .about-img {
   margin-bottom: 2rem;
   height: 35rem;
+  transition: transform .8s;
+  box-shadow: 5px 5px 20px #bd5873;
+}
+.about-img :hover{
+  transform: scale(1.03);  
 }
 .about-text .section-title {
   margin-bottom: 2rem;

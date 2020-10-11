@@ -2,7 +2,6 @@ import React from "react"
 import {
   FaFacebookSquare,
   FaLinkedin,
-  FaInstagramSquare,
   FaTwitterSquare,
 } from "react-icons/fa"
 
@@ -19,11 +18,6 @@ const data = [
   },
   {
     id: 3,
-    icon: <FaInstagramSquare className="social-icon"></FaInstagramSquare>,
-    url: "https://www.instagram.com/?hl=en",
-  },
-  {
-    id: 4,
     icon: <FaTwitterSquare className="social-icon"></FaTwitterSquare>,
     url: "https://twitter.com/vahiddaliri",
   },

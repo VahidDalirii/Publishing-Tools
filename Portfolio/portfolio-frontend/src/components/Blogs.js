@@ -14,7 +14,7 @@ export const Blogs = ({ blogs, title, showLink }) => {
       {/* If the showLink is undefined, dont show any link, otherwise show link */}
       {showLink && (
         <Link to="/blog" className="btn center-btn">
-          All articles
+          Alla artiklar
         </Link>
       )}
     </section>

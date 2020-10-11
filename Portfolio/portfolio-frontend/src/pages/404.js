@@ -8,9 +8,9 @@ const Error = () => {
     <Layout>
       <main className="error-page">
         <div className="error-container">
-          <h1>Oops! Something went wrong</h1>
+          <h1>Oj, Något gick fel</h1>
           <Link to="/" className="btn">
-            Go back home
+            Tillbaka Hem
           </Link>
         </div>
       </main>

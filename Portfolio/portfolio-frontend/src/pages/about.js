@@ -31,15 +31,15 @@ const About = ({
               })}
             </div>
             <br/>
-            <div className="btn cv">
-              <a href={downloadFile} download>
-              Download complete CV
+            <div>
+              <a href={downloadFile} download className="btn">
+              Ladda ner fullständig CV
               </a>
               {` `}
-            </div>
             <Link to="/contact" className="btn">
-              Contact me
+              Kontakta mig
             </Link>
+            </div>
           </article>
         </div>
         <></>

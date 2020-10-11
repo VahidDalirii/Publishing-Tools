@@ -38,8 +38,8 @@
       "enum": [
         "CSharp",
         "Javascript",
-        "FrontendWebDevelopment",
-        "BackendDevelopment"
+        "FrontendWebUtveckling",
+        "BackendUtveckling"
       ],
       "required": true
     },
