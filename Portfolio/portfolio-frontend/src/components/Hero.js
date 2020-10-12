@@ -79,7 +79,7 @@ const Hero = () => {
               Azure DevOps
             </a>{" "}
             <br /><br/>
-            - Personlighet: Ansvarsfull, strukturerad, glad. <br />
+            - Personlighet: Ansvarsfull, strukturerad, nyfiken, positiv och glad. <br />
             <br />
             - Intressen: Gymma, Simma, Spela Tennis
             <br /><br/>
