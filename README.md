@@ -14,7 +14,7 @@
        **Viktigt**: Efter ändringar i din backend (strapi) så behöver du döda både backend och frontend terminaler med att trycka på `Ctrl + c` och köra om `npm run develop` i din backend terminal och `gatsby develop` i din frontend terminal.
        
 
-##Publiceringsguide
+## Publiceringsguide
 
 När du är nöjd med dina ändringar och har en fungerande websida så är det dags att publicera den. För att göra det behöver du följa de här stegen:
 
