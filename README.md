@@ -25,7 +25,7 @@
 
 När du är nöjd med dina ändringar och har en fungerande websida så är det dags att publicera den. För att göra det behöver du följa de här stegen:
 
-        viktigt: I `gatsby-config.js` i frontend mappen byt ut *siteMetadate* uppgifter till dina egna uppgifter. Du kan byta din twitter image som finns i static mappen som du gjorde med ditt cv. Du kan ändra `siteUrl: "https://xxxxxxxxxxxx.netlify.app/"` med det som du vill din sida ska heta.
+        Viktigt: I `gatsby-config.js` i frontend mappen byt ut -siteMetadate- uppgifter till dina egna uppgifter. Du kan byta din twitter image som finns i static mappen som du gjorde med ditt cv. Du kan ändra `siteUrl: "https://xxxxxxxxxxxx.netlify.app/"` med det som du vill din sida ska heta.
         
 **1.** Öppna en terminal och kör kommandot : `npm install netlify-cli -g`för att installera netlify globalt.
 
