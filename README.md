@@ -22,5 +22,7 @@ När du är nöjd med dina ändringar och har en fungerande websida så är det 
 2. Kör kommandot `netlify login`. Detta öppnar ett webbläsarfönster och ber dig logga in med Netlify och ge åtkomst till Netlify CLI.
 3. Medan du har din backend och frontend terminaler körandes öppna en annan terminal och gå till din frontend projekt `cd portfolio-frontend` och kör kommandot `gatsby build`. Med detta komando förbereds public mappen i frontend projektet för publicering(Deploy).
 **Viktigt**: Ha koll att du pushat alla nyare ändringar till din git.
-4. öppna en ny terminal och i root directory(Där du är precis när du öppnar en ny terminal) kör detta kommando: `netlify init`. För frågan om vi ska skapa en ny sida välj `+ Create & configure a new site`. Sedan om det visas rätt team namn välj den. Nästa fråga är om din sidas namn, välj vad du vill den heta.
+4. öppna en ny terminal och i root directory(Där du är precis när du öppnar en ny terminal) kör detta kommando: `netlify init`. För frågan om vi ska skapa en ny sida välj `+ Create & configure a new site`. Sedan om det visas rätt team namn välj den. Nästa fråga är om din sidas namn, välj vad du vill den heta. Svar på frågan om build kommando skriv `gatsby build`. Sista frågan är address till public mappen i frontend projektet som innehåller all info om sidan som ska deployas. Där skriv `./portfolio-frontend/public/.
+5. Nästa kommando som behöver köras är `netlify deploy` som visar ett exampel på sidan som ska publiceras. Kolla Website Draft URL:en som du får att alltning ser bra ut.
+6. Sista steg kör du kommandot `netlify deploy --prod` och du får Website URL som är den riktiga URL:en till din publicerade hemsida.
 
