@@ -1,11 +1,10 @@
 # Installationsguide
 
-**Viktigt**: För att kunna använda och publicera detta portfolio projekt behöver du ha Node, gitbash och VS Code installerad i din dator och ha/skapa ett konto hos Facebook, Twitter, Linkedin, Git, Cloudinary och Netlify.
+        **Viktigt**: För att kunna använda och publicera detta portfolio projekt behöver du ha Node, gitbash och VS Code installerad i din dator och ha/skapa ett konto hos Facebook, Twitter, Linkedin, Git, Cloudinary och Netlify. Du behöver även ha en Högupplöst personlig transparent bild i png format, ett uppdaterat CV, 4 blog artiklar och minst Minst 4 arbetsprov.
 
+**1.** Efter du clone:at hela Portfolio projektet öppna projekt foldern i din Visual Studio Code och i portfolio-backend under `portfolio-backend/extensions/upload/config` byta ut `"providerOptions": { "cloud_name": "xxxx", "api_key": "xxxxxx", "api_secret": "xxx" }` i settings.json filen med dina egna uppgifter från ditt Cloudnairy konto.
 
-**1.** Efter du clone:at hela Portfolio projektet öppna projekt foldern i din Visual Studio Code och i portfolio-backend under `portfolio-backend/extensions/upload/config` byta ut `"providerOptions": { "cloud_name": "xxxx", "api_key": "xxxxxx", "api_secret": "xxx" }` i settings.json filen med dina egna uppgifter från Cloudnairy.
-
-**2.** I din frontend, under `portfolio-frontend / src / pages /` i contact.js filen, ändra inställningen för `<form action="https://formspree.io/xxxxxxxx" method="POST">` med den specifika endpoint som du hittar i din Fromspree under Integration fliken.
+**2.** I din frontend, under `portfolio-frontend / src / pages /` i contact.js filen, ändra inställningen för `<form action="https://formspree.io/xxxxxxxx" method="POST">` med den specifika endpoint som du hittar i din Fromspree under Integration fliken. Byt ut `hero-img.png`bilden med din personliga bils som ska ha exakt samma namn och format. Ta bort `Vahid Daliri - CV.pdf` under **static** mappen i frontend projektet och ersätt med ditt eget pdf CV och sedan i `src/assets/pages/about.js` i rad 9 byt `Vahid Daliri - CV.pdf` till din egen fil namn som ska importeras, `import downloadFile from "../../static/Vahid Daliri - CV.pdf"`.  
 
 **3.** Öppna en terminal och gå in till portfolio-backend med kommandot: `cd portfolio-backend` och kör kommandot `npm install`.
         
@@ -26,6 +25,8 @@
 
 När du är nöjd med dina ändringar och har en fungerande websida så är det dags att publicera den. För att göra det behöver du följa de här stegen:
 
+        viktigt: I `gatsby-config.js` i frontend mappen byt ut *siteMetadate* uppgifter till dina egna uppgifter. Du kan byta din twitter image som finns i static mappen som du gjorde med ditt cv. Du kan ändra `siteUrl: "https://xxxxxxxxxxxx.netlify.app/"` med det som du vill din sida ska heta.
+        
 **1.** Öppna en terminal och kör kommandot : `npm install netlify-cli -g`för att installera netlify globalt.
 
 **2.** Kör kommandot `netlify login`. Detta öppnar ett webbläsarfönster och ber dig logga in med Netlify och ge åtkomst till Netlify CLI.
