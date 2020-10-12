@@ -8,7 +8,7 @@
 
 **3.** Öppna en terminal och gå in till portfolio-backend med kommandot: `cd portfolio-backend` och kör kommandot `npm install`.
         
-        Viktigt: Kör inte npm audit fix som du får som förslag  för detta kommer uppdatera saker som kan krångla med andra versioner i detta projekt.
+        Viktigt: Kör inte npm audit fix som du får som förslag, för att detta kommer uppdatera saker som kan krångla sen med andra versioner i detta projekt.
         
 **4.** Öppna en annan terminal och gå till portfolio-frontend mappen med kommandot `cd portfolio-frontend` och kör `npm install`. Denna gång ska du köra `npm audit fix` efter installationen.
 
