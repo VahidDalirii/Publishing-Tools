@@ -23,9 +23,10 @@ const Project = ({ description, title, github, stack, url, image, index }) => {
           <a href={github}>
             <FaGithubSquare className="project-icon" />
           </a>
-          <a href={url}>
+          {/* I do not need web page url */}
+          {/* <a href={url}>
             <FaShareSquare className="project-icon" />
-          </a>
+          </a> */}
         </div>
       </div>
     </article>
@@ -38,7 +39,7 @@ so if you forget to give them values, you will get a error in your console
 Project.propTypes = {
   title: PropTypes.string.isRequired,
   git: PropTypes.string.isRequired,
-  url: PropTypes.string.isRequired,
+  //url: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
   image: PropTypes.object.isRequired,
   stack: PropTypes.arrayOf(PropTypes.object).isRequired,
