@@ -74,8 +74,10 @@ Headless liknar traditionell arkitektur i de avseenden att båda dessa hanterar 
 
 I denna länk kan du se de [populäraste CMS verktygen](https://en.wikipedia.org/wiki/List_of_content_management_systems)
 
-I denna länk kan du se de populäraste headless CMS verktygen: https://www.cmswire.com/web-cms/13-headless-cmss-to-put-on-your-radar/
-                   Sammanfattningsvis
+I denna länk kan du se de [populäraste headless CMS verktygen](https://www.cmswire.com/web-cms/13-headless-cmss-to-put-on-your-radar/)
+
+**Sammanfattningsvis**
+
 Varje projekt har sina egna förutsättningar och det går inte att ge en allmän övergripande rekommendation. I grova drag vill vi rekommendera att för en enklare och till mestadels informativ webbplats, är en traditionell arkitektur ofta mer kostnadseffektiv. Ifall du har flera olika utomstående tjänster eller integrationer mot externa plattformar kan en headless arkitektur vara vägen att gå. Headless passar perfekt om du har flera olika tjänster som ska integreras.
 Det ena alternativet ersätter inte det andra. Headless är inte här för att ersätta traditionella arkitekturer men vi har möjligheten att kunna välja en större bred av andra lösningar utifrån olika behov.
 
