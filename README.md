@@ -43,6 +43,6 @@ När du är nöjd med dina ändringar och har en fungerande websida så är det 
 
 Här kan du se min publicerade [portfoliosida](https://vahid-daliri-portfolio.netlify.app/)
 
-##Tenta fråga
+## Tenta fråga
 
 ### konstruera innehållet i ett CMS och analysera och utvärdera användarens upplevelse samt motivera val av design och funktionsmässiga alternativ vid utveckling. 
