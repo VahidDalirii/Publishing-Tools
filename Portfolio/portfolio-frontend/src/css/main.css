@@ -209,10 +209,7 @@ p {
 Navbar
 ===============
 */
-.logo{
-  width: 85px;
-  margin-left: 30px;
-}
+
 .navbar {
   position: fixed;
   top: 0;
@@ -251,6 +248,12 @@ Navbar
 }
 .nav-links {
   display: none;
+}
+.logo{
+  position: absolute; 
+  width: 123px;
+  margin-left: 30px;
+  opacity: 0.8;
 }
 
 @media screen and (min-width: 768px) {
@@ -769,6 +772,7 @@ Blog
 ===============
 */
 .blog {
+  
   display: block;
   margin-bottom: 2rem;
   background: var(--clr-grey-10);
@@ -777,7 +781,7 @@ Blog
   transition: var(--transition);
 }
 .blog:hover {
-  box-shadow: var(--dark-shadow);
+  box-shadow: 10px 10px 5px #df4d74;
   transform: scale(1.02);
 }
 .blog article {

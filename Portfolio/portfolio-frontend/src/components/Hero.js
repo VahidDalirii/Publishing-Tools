@@ -42,9 +42,17 @@ const Hero = () => {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://docs.microsoft.com/en-us/dotnet/csharp/"
+              href="https://dotnet.microsoft.com/"
             >
-             C#
+             .NET
+            </a>
+            ,{" "}
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://dotnet.microsoft.com/apps/aspnet"
+            >
+              ASP.NET
             </a>
             ,{" "}
             <a
@@ -71,6 +79,8 @@ const Hero = () => {
               MongoDB
               </a>{" "}
             ,{" "}
+            <br /><br/>
+            - Versionskontrollsystem:{" "} 
             <a
               target="_blank"
               rel="noopener noreferrer"
@@ -78,9 +88,15 @@ const Hero = () => {
             >
               Azure DevOps
             </a>{" "}
+            och {" "}
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://azure.microsoft.com/en-us/services/devops/"
+            >
+              Git
+            </a>{" "}
             <br /><br/>
-            - Personlighet: Ansvarsfull, strukturerad, nyfiken, positiv och glad. <br />
-            <br />
             - Intressen: Gymma, Simma, Spela Tennis
             <br /><br/>
             <Link to="/contact" className="btn">
