@@ -63,12 +63,16 @@ Ett CMS kommer att organisera och lagra filer och ge åtkomst till deras data so
 + Även om teman har blivit allt kraftigare vad gäller vad som kan göras utan någon kodningskunskap, kan du fortfarande stöta på problem som får din webbplats att visa exakt som du vill.
 + Det sätt på vilket de flesta CMS-plattformar har utformats kan leda till vissa hastighetsproblem och släpplatser.
 + Det finns tusentals tredjeparts plugins tillgängliga för populära CMS-plattformar, men det kanske inte finns en som tillhandahåller den funktionalitet du behöver.
+
 Det finns två olika CMS modeller, traditionellt(klassikt) och headless CMS, som vi jämför de två här nedanför:
-                 Skillnaden mellan Traditionellt och Headless CMS
+
+**Skillnaden mellan Traditionellt och Headless CMS**
+
 I ett klassiskt CMS skapas, hanteras och lagras innehålls tillsammans med bilder, filer o.s.v. i backoffice (också ibland kallat för admindelen). I backend skapas också sajtens huvudsakliga struktur samt eventuella grafiska anpassningar. CMS:et som hanterar informationen är också bundet till samma system som levererar och presenterar innehållet (frontend) till besökaren. Vi säger att backend och frontend är tätt sammanknutet, de består av samma kodbas, samspelar mellan sig och utgör sajten som helhet.
+
 Headless liknar traditionell arkitektur i de avseenden att båda dessa hanterar innehåll, lagrar information i en databas och levererar det innehållet utåt på ett sätt. Ordet Headless syftar på att CMSet levererar information till ett annat system som presenterar informationen för besökaren. Ett CMS som Contentful är exempel på en tjänst som är headless. Med denna typ av arkitektur skapar och hanterar dina redaktörer innehållet i en molntjänst, d.v.s. på en separat sajt. Innehållet lagras sedan och inväntas på att bli hämtas via ett API.
 
-I denna länk kan du se de populäraste CMS verktygen: https://en.wikipedia.org/wiki/List_of_content_management_systems
+I denna länk kan du se de [populäraste CMS verktygen] (https://en.wikipedia.org/wiki/List_of_content_management_systems)
 
 I denna länk kan du se de populäraste headless CMS verktygen: https://www.cmswire.com/web-cms/13-headless-cmss-to-put-on-your-radar/
                    Sammanfattningsvis
