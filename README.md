@@ -41,3 +41,5 @@ När du är nöjd med dina ändringar och har en fungerande websida så är det 
 
 **6.** Sista steg kör du kommandot `netlify deploy --prod` och du får Website URL som är den riktiga URL:en till din publicerade hemsida.
 
+Här kan du se min publicerade [portfoliosida](https://vahid-daliri-portfolio.netlify.app/)
+
