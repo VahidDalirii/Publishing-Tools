@@ -72,7 +72,7 @@ I ett klassiskt CMS skapas, hanteras och lagras innehålls tillsammans med bilde
 
 Headless liknar traditionell arkitektur i de avseenden att båda dessa hanterar innehåll, lagrar information i en databas och levererar det innehållet utåt på ett sätt. Ordet Headless syftar på att CMSet levererar information till ett annat system som presenterar informationen för besökaren. Ett CMS som Contentful är exempel på en tjänst som är headless. Med denna typ av arkitektur skapar och hanterar dina redaktörer innehållet i en molntjänst, d.v.s. på en separat sajt. Innehållet lagras sedan och inväntas på att bli hämtas via ett API.
 
-I denna länk kan du se de [populäraste CMS verktygen] (https://en.wikipedia.org/wiki/List_of_content_management_systems)
+I denna länk kan du se de [populäraste CMS verktygen](https://en.wikipedia.org/wiki/List_of_content_management_systems)
 
 I denna länk kan du se de populäraste headless CMS verktygen: https://www.cmswire.com/web-cms/13-headless-cmss-to-put-on-your-radar/
                    Sammanfattningsvis
