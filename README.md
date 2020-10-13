@@ -49,16 +49,16 @@ Här kan du se min publicerade [portfoliosida](https://vahid-daliri-portfolio.ne
 
 Ett Content Management System, populärt kallat CMS är en plattform som används för att göra ett par överhängande uppgifter på en webbplats. Det är bildligt utformat för att hjälpa en användare att publicera inlägg via praktiska verktyg som är lättillgängliga på admin-instrumentpanelen. 
 Ett CMS kommer att organisera och lagra filer och ge åtkomst till deras data som är versionskontrollerade. Det finns många olika CMS, vissa är relativt enkla och andra är komplexa och kraftfulla. Vanligtvis ingår i ett CMS är funktionerna för formathantering, webbaserad publicering, indexering, revisionskontroll, sökning och hämtning. Följande kommer för- Och nackdelar med CMS:
-Fördelar med CMS:
-•	Design har separerats från innehållet
-•	Möjlighet att ställa in åtkomstbehörigheter.
-•	SEO vänlig.
-•	Alla de populära CMS-alternativen är gratis
-                Nackdelar med CMS:
-•	Eftersom så många webbplatser använder de populära CMS-systemen har de blivit ett mål för hackare
-•	Även om teman har blivit allt kraftigare vad gäller vad som kan göras utan någon kodningskunskap, kan du fortfarande stöta på problem som får din webbplats att visa exakt som du vill.
-•	Det sätt på vilket de flesta CMS-plattformar har utformats kan leda till vissa hastighetsproblem och släpplatser.
-•	Det finns tusentals tredjeparts plugins tillgängliga för populära CMS-plattformar, men det kanske inte finns en som tillhandahåller den funktionalitet du behöver.
+**Fördelar med CMS:**
++ Design har separerats från innehållet
++ Möjlighet att ställa in åtkomstbehörigheter.
++ SEO vänlig.
++ Alla de populära CMS-alternativen är gratis
+                **Nackdelar med CMS:**
++ Eftersom så många webbplatser använder de populära CMS-systemen har de blivit ett mål för hackare
++ Även om teman har blivit allt kraftigare vad gäller vad som kan göras utan någon kodningskunskap, kan du fortfarande stöta på problem som får din webbplats att visa exakt som du vill.
++ Det sätt på vilket de flesta CMS-plattformar har utformats kan leda till vissa hastighetsproblem och släpplatser.
++ Det finns tusentals tredjeparts plugins tillgängliga för populära CMS-plattformar, men det kanske inte finns en som tillhandahåller den funktionalitet du behöver.
 Det finns två olika CMS modeller, traditionellt(klassikt) och headless CMS, som vi jämför de två här nedanför:
                  Skillnaden mellan Traditionellt och Headless CMS
 I ett klassiskt CMS skapas, hanteras och lagras innehålls tillsammans med bilder, filer o.s.v. i backoffice (också ibland kallat för admindelen). I backend skapas också sajtens huvudsakliga struktur samt eventuella grafiska anpassningar. CMS:et som hanterar informationen är också bundet till samma system som levererar och presenterar innehållet (frontend) till besökaren. Vi säger att backend och frontend är tätt sammanknutet, de består av samma kodbas, samspelar mellan sig och utgör sajten som helhet.
