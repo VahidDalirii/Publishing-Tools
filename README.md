@@ -1,6 +1,6 @@
 # Installationsguide
 
-        **Viktigt**: För att kunna använda och publicera detta portfolio projekt behöver du ha Node, gitbash och VS Code installerad i din dator och ha/skapa ett konto hos Facebook, Twitter, Linkedin, Git, Cloudinary och Netlify. Du behöver även ha en Högupplöst personlig transparent bild i png format, ett uppdaterat CV, 4 blog artiklar och minst Minst 4 arbetsprov.
+        Viktigt: För att kunna använda och publicera detta portfolio projekt behöver du ha Node, gitbash och VS Code installerad i din dator och ha/skapa ett konto hos Facebook, Twitter, Linkedin, Git, Cloudinary och Netlify. Du behöver även ha en Högupplöst personlig transparent bild i png format, ett uppdaterat CV, 4 blog artiklar och minst Minst 4 arbetsprov.
 
 **1.** Efter du clone:at hela Portfolio projektet öppna projekt foldern i din Visual Studio Code och i portfolio-backend under `portfolio-backend/extensions/upload/config` byta ut `"providerOptions": { "cloud_name": "xxxx", "api_key": "xxxxxx", "api_secret": "xxx" }` i settings.json filen med dina egna uppgifter från ditt Cloudnairy konto.
 
