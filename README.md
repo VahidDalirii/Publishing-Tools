@@ -91,4 +91,4 @@ Jag fick mest positiva feedback av honom vilket gav mig motivation att jobba än
 ---
 ### Backend (Strapi)
 
-Jobba med strapi var något nytt för backend utveckling för mig som jobbar idag som .Net backendutvecklare. Hantera data och kopplingen till frontenden var väldigt smidigt trotts att det krånglade ibland pga version konflikter eller glömde man köra backend i terminalen och fick inte frontenden att fungera. Jag tror att om man skulle göra det i .net så skulle man skrivit 10 gånger mer kod för att kunna hantera datan på samma sätt som vi gjort i vårt projekt.
+Jobba med strapi var något nytt för backend utveckling för mig som jobbar idag som .Net backendutvecklare. Hantera data och kopplingen till frontenden var väldigt smidigt trotts att det krånglade ibland pga version konflikter eller glömde man köra backend i terminalen och fick inte frontenden att fungera. Just att skapa komponenter visuellt i Strapi och få det som API i backend projektet gjorde allting så mycket enklare.
