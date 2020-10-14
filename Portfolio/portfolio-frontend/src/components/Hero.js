@@ -92,7 +92,7 @@ const Hero = () => {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://azure.microsoft.com/en-us/services/devops/"
+              href="https://github.com/"
             >
               Git
             </a>{" "}

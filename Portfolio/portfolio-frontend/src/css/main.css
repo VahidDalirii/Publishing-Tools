@@ -250,8 +250,7 @@ Navbar
   display: none;
 }
 .logo{
-  position: absolute; 
-  width: 123px;
+  width: 95px;
   margin-left: 30px;
   opacity: 0.8;
 }
@@ -259,6 +258,7 @@ Navbar
 @media screen and (min-width: 768px) {
   .toggle-btn {
     display: none;
+    
   }
   .nav-links {
     display: flex;
@@ -282,7 +282,7 @@ Navbar
   .nav-center {
     display: grid;
     grid-template-columns: auto 1fr;
-    align-items: center;
+    align-items: center;    
   }
 }
 
@@ -440,8 +440,9 @@ Hero
 .hero-img {
   display: none;
   border-radius: 50%;
-  width: 60%;
-  height: 50%;
+  width: 70%;
+  height: 60%;
+  object-fit: cover;
   margin-left: 35%;
   transition: transform .8s
 }
