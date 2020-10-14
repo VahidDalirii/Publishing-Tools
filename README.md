@@ -82,6 +82,8 @@ Varje projekt har sina egna förutsättningar och det går inte att ge en allmä
 Det ena alternativet ersätter inte det andra. Headless är inte här för att ersätta traditionella arkitekturer men vi har möjligheten att kunna välja en större bred av andra lösningar utifrån olika behov.
 
 ---
+### UI
+
 Jag visade min publicerade portfolio sida till en kollega till mig. Med tanke på min nivå som har kodat i ett år nu så tyckte han att allting ser bra ut. Han tyckte att mobile first utvecklingen på min sida som anpassar sig till mobilt läge gör min sida användbart för mobil användare som idag använder mer än 80% av användare som använder nätet. Han tyckte navbar menyn som har en position:fixed gör det att alla sidor blir tillgängliga över allt i index sidan. Han gillade navbaren som ändrades till en sidebar på mobilt läge med en häftig animation. Kombination av glada färger som jag använt i min CSS tyckte han att det var fint och ögonen inte trötnar att tita på sidan en längre tid. Han tyckte i min projekt i fokus del så behöver jag ha bättre och lite mer avancerade projekt för att kunna locka en arbetsgivare till min profil. Vilket på grund av mitt jobb som backend utvecklare har jag inte så mycket att visa men är nånting som jag kommer ha koll på och skapa lite bättre arbetsprov för visa till sidans besökare. Funktionen kontakta mig tyckte han att det gör mycket änklare för folk som vill kontakta mig iställt för att skriva mail-address eller mobil-nummer. 
 
 Jag fick mest positiva feedback av honom vilket gav mig motivation att jobba ännu mer på min sida och försöka hålla den uppdaterad.
