@@ -109,7 +109,7 @@ Strapi som vi använde är en headless CMS och ett helt vanligt CMS med den skil
 För välja ett lämplig CMS/Headless CMS finns hundratals olika CMS verktyg som de flesta är gratis att använda vilket gör valet ganska svårt. Wordpress som idag är mest kända och användbara CMS för det var först i banschen(De flesta utvecklare föredrar Wordpress), låter dig bara använda PHP som serversidans programmeringsspråk vilket gör det omöjligt för mig idag att kunna använda det, för kan inte PHP. Och Wordpress använder MySQL som databas som begränsar lite grann för mig som kan MongoDB och MSSQL mycket bättre än MySQL. Men i Strapi som vi använde så kan man välja vilket serversida programmeringsspråk och även vilken databas som helst, vilket gör det mer användbart för mig som en användare.
 
 Källor:
-	https://sv.odwebdesign.net/how-to-choose-the-right-cms/
+	[källa 1](https://sv.odwebdesign.net/how-to-choose-the-right-cms/)
 
-	https://www.sokmotorkonsult.se/valja-cms
+	[källa 2](https://www.sokmotorkonsult.se/valja-cms)
 
