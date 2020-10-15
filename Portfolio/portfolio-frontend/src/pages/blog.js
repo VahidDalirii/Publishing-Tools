@@ -12,13 +12,17 @@ const Blog = ({
 }) => {
   return (
     <Layout>
+      {/* SEO for search engines to find if search is similar blog's description field */}
       <SEO title="Bloggen" description="Bloggsidan" />
       <section className="blog-page">
+        {/* A button to go to articles page to see all saved/uploaded atricles */}
         <Blogs blogs={blogs} title="Alla artiklar" />
       </section>
     </Layout>
   )
 }
+
+//graphgl query to get all blogs info from strapi
 export const query = graphql`
   {
     allStrapiBlogs {

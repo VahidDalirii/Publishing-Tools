@@ -1,5 +1,6 @@
 import React from "react"
 import { FaCode, FaLaptopCode, FaServer } from "react-icons/fa"
+//Here we have all services which we offer
 export default [
   {
     id: 1,

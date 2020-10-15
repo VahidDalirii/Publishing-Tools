@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+//Here we have all links in our navbar/sidebar
 const data = [
   {
     id: 1,

@@ -2,6 +2,8 @@ import React from "react"
 import logo from "../assets/logo.svg"
 import { FaAlignRight } from "react-icons/fa"
 import PageLinks from "../constants/links"
+
+//Returns the navbar (In mobile form sidebar) with logo and all its links
 const Navbar = ({ toggleSidebar }) => {
   return (
     <nav className="navbar">

@@ -16,7 +16,7 @@ const query = graphql`
     }
   }
 `
-
+//Using SEO for search engines to find my site when users searching
 const SEO = ({ title, description }) => {
   const { site } = useStaticQuery(query)
   const {

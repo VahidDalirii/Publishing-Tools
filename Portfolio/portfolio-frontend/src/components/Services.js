@@ -6,6 +6,7 @@ const Services = () => {
     <section className="section bg-grey">
       <Title title="Söker jobb som" />
       <div className="section-center services-center">
+        {/* loops through all services and returns services with their id, icon, title, text */}
         {services.map(service => {
           //  destructure
           const { id, icon, title, text } = service

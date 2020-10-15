@@ -9,6 +9,7 @@ const contact = () => {
       <section className="contact-page">
         <article className="contact-form">
           <h3>Kontakta mig</h3>
+          {/* This is my post mrthod with my specific url which connects it to my account in Formspree */}
           <form action="https://formspree.io/mjvpgkyy" method="POST">
             <div className="form-group">
               <input

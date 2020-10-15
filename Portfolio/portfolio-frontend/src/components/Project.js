@@ -14,12 +14,14 @@ const Project = ({ description, title, github, stack, url, image, index }) => {
         {/* if title is not supplied, set a defualt title */}
         <h3>{title || "Project"}</h3>
         <p className="project-description">{description}</p>
+        {/* loops through a project and returns project with an id and title*/}
         <div className="project-stack">
           {stack.map(item => {
             return <span key={item.id}>{item.title}</span>
           })}
         </div>
         <div className="project-links">
+          {/* Adds git icon as a link to git repository for this specific project */}
           <a href={github}>
             <FaGithubSquare className="project-icon" />
           </a>

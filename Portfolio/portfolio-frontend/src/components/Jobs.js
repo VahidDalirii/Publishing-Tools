@@ -4,6 +4,7 @@ import { FaAngleDoubleRight } from "react-icons/fa"
 import { graphql, useStaticQuery } from "gatsby"
 import { Link } from "gatsby"
 
+//Graphql query for get all jobs 
 const query = graphql`
   {
     allStrapiJobs(sort: { fields: strapiId, order: DESC }) {
@@ -39,6 +40,7 @@ const Jobs = () => {
       <div className="jobs-center">
         {/* btn container */}
         <div className="btn-container">
+          {/* loops through all jobs and returns button for every saved job*/}
           {jobs.map((item, index) => {
             return (
               <button
@@ -52,6 +54,7 @@ const Jobs = () => {
           })}
         </div>
         {/* job info */}
+        {/* loops through all jobs and returns jobs with its all info */}
         <article className="job-info">
           <h3>{position}</h3>
           <h4>{company}</h4>
@@ -66,6 +69,7 @@ const Jobs = () => {
           })}
         </article>
       </div>
+      {/* A button to go to about page and read/download CV */}
       <Link to="/about" className="btn center-btn">
         Mitt CV
       </Link>

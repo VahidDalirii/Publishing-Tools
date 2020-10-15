@@ -24,6 +24,7 @@ const Blog = ({ id, title, image, date, category, slug, desc }) => {
   )
 }
 
+// Here we have all blog's properties and all of them are required
 Blog.propTypes = {
   id: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,

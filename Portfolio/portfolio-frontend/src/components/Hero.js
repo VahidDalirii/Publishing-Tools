@@ -5,6 +5,7 @@ import { graphql, useStaticQuery } from "gatsby"
 import SocialLinks from "../constants/socialLinks"
 // ...GatsbyImageSharpFluid
 
+//Graphql query for hero 
 const query = graphql`
   {
     file(relativePath: { eq: "hero-img.png" }) {
@@ -24,8 +25,7 @@ const Hero = () => {
     },
   } = useStaticQuery(query)
 
-  // console.log(data)
-
+  //Profile info in hero segment
   return (
     <header className="hero">
       <div className="section-center hero-center">
@@ -99,12 +99,14 @@ const Hero = () => {
             <br /><br/>
             - Intressen: Gymma, Simma, Spela Tennis
             <br /><br/>
+            {/* Contact med button to  save a mail to my Formspree account*/}
             <Link to="/contact" className="btn">
               Kontakta mig
             </Link>
             <SocialLinks />
           </div>
         </article>
+        {/* Hero image from assets folder */}
         <Image fluid={fluid} className="hero-img" />
       </div>
     </header>

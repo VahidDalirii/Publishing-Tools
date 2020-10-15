@@ -14,6 +14,7 @@ export default ({ data }) => {
     allStrapiProjects: { nodes: projects },
     allStrapiBlogs: { nodes: blogs },
   } = data
+  //returnes all segments of my index page 
   return (
     <Layout>
       <SEO title="Hem" description="Startsidan" />
@@ -26,6 +27,7 @@ export default ({ data }) => {
   )
 }
 
+//graphgl query to get 3 projects and 3 latest blogs info from strapi
 export const query = graphql`
   {
     allStrapiProjects(filter: { featured: { eq: true } }) {

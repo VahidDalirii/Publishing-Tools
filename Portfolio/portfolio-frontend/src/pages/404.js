@@ -3,6 +3,7 @@ import Layout from "../components/Layout"
 import { Link } from "gatsby"
 import SEO from "../components/SEO"
 
+//If the url is something else than urls in my website then shows this page
 const Error = () => {
   return (
     <Layout>

@@ -12,6 +12,7 @@ const ProjectsPage = ({
 }) => {
   return (
     <Layout>
+      {/* SEO for search engines to find if search is similar project's description field */}
       <SEO title="Projekt" description="Projektsidan" />
       <section className="project-page">
         <Projects projects={projects} title="Alla projekt" />
@@ -20,6 +21,7 @@ const ProjectsPage = ({
   )
 }
 
+//graphgl query to get all projects info from strapi and sorts them by descending
 export const query = graphql`
   {
     allStrapiProjects(sort: { fields: strapiId, order: DESC }){

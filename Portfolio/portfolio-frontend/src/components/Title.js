@@ -1,5 +1,6 @@
 import React from "react"
 
+//Component for title for pages
 const Title = ({ title }) => {
   return (
     <div className="section-title">
