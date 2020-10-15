@@ -43,8 +43,6 @@ När du är nöjd med dina ändringar och har en fungerande websida så är det 
 
 Här kan du se min publicerade [portfoliosida](https://vahid-daliri-portfolio.netlify.app/)
 
-## Tenta frågan
-
 ##### Konstruera innehållet i ett CMS och analysera och utvärdera användarens upplevelse samt motivera val av design och funktionsmässiga alternativ vid utveckling. 
 
 Ett Content Management System, populärt kallat CMS är en plattform som används för att göra ett par överhängande uppgifter på en webbplats. Det är bildligt utformat för att hjälpa en användare att publicera inlägg via praktiska verktyg som är lättillgängliga på admin-instrumentpanelen. 
@@ -92,3 +90,19 @@ Jag fick mest positiva feedback av honom vilket gav mig motivation att jobba än
 ### Backend (Strapi)
 
 Jobba med strapi var något nytt för backend utveckling för mig som jobbar idag som .Net backendutvecklare. Hantera data och kopplingen till frontenden var väldigt smidigt trotts att det krånglade ibland pga version konflikter eller glömde man köra backend i terminalen och fick inte frontenden att fungera. Just att skapa komponenter visuellt i Strapi och få det som API i backend projektet gjorde allting så mycket enklare.
+
+---
+
+## Tenta frågan
+
+#### •	Se samband och värdera alternativa lösningar vid val av programmeringsteknik vid utveckling av dynamiska webbplatser
+
+Det enda verktyget som jag hade använt innan vi börjat med CMS för utveckling av dynamiska webbplatser, var ASP.net. Om jag ska jämföra de här två som jag känner till idag så jobba med CMS verktyget var smidigare än ASP.net. 
+
+Genom CMS har man möjlighet att underhålla webbplatsen utan att ha någon kunskap i programmering, eftersom kontakt med kod själv är minimal. Vilket är tvärtom om man använder ASP.net, då måste man kunna både programmeringsspråket och även kunna databas query:n beroende på vilken databas man använder. Vilket gjordes mycket lättare i vårt fall med hjälp av graphql att man valde vilka fält man ville ha i sin query då fick man query:t färdigt skrivet. 
+
+CMS möjliggör att publicera, organisera och förändra webbplatsinnehåll genom användargränssnitt. Det omfattar att tillägga texter, bildgalleri, videor, bloggar osv. Det var ganska enkelt att hantera SEO delen som är väldigt viktigt för att en hemsida ska synas vid sökningar. Att lägga till saker eller skapa komponenter i Strapi var lika enkelt som att jobba med en Word dokument med Google Docs. 
+
+Strapi som vi använde är en headless CMS och ett helt vanligt CMS med den skillnaden att det inte renderar någon HTML eller CSS. Headless CMS är med andra ord inte en specifik produkt, utan ett sätt att implementera vilket CMS som helst (med ett API). Ett Headless CMS tar alltså bara hand om innehåll. Genom API kan man sedan hämta innehållet och presentera det på vilken plattform eller genom vilket gränssnitt som helst. 
+
+För välja ett lämplig CMS/Headless CMS finns hundratals olika CMS verktyg som de flesta är gratis att använda vilket gör valet ganska svårt. Wordpress som idag är mest kända CMS låter dig bara använda PHP som serversidans programmeringsspråk vilket gör det omöjligt för mig idag att kunna använda det, för kan inte PHP. Och Wordpress använder MySQL som databas som begränsar lite grann för mig som kan MongoDB och MSSQL mycket bättre än MySQL. Men i Strapi som vi använde så kan man välja vilket serversida programmeringsspråk och även vilken databas som helst, vilket gör det mer användbart för mig som en användare.
