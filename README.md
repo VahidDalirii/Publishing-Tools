@@ -110,6 +110,5 @@ För välja ett lämplig CMS/Headless CMS finns hundratals olika CMS verktyg som
 
 Källor:
 	[källa 1](https://sv.odwebdesign.net/how-to-choose-the-right-cms/)
-
 	[källa 2](https://www.sokmotorkonsult.se/valja-cms)
 
