@@ -43,7 +43,8 @@ När du är nöjd med dina ändringar och har en fungerande websida så är det 
 
 Här kan du se min publicerade [portfoliosida](https://vahid-daliri-portfolio.netlify.app/)
 
-##### Konstruera innehållet i ett CMS och analysera och utvärdera användarens upplevelse samt motivera val av design och funktionsmässiga alternativ vid utveckling. 
+---
+##### 4. Konstruera innehållet i ett CMS och analysera och utvärdera användarens upplevelse samt motivera val av design och funktionsmässiga alternativ vid utveckling. 
 
 Ett Content Management System, populärt kallat CMS är en plattform som används för att göra ett par överhängande uppgifter på en webbplats. Det är bildligt utformat för att hjälpa en användare att publicera inlägg via praktiska verktyg som är lättillgängliga på admin-instrumentpanelen. 
 Ett CMS kommer att organisera och lagra filer och ge åtkomst till deras data som är versionskontrollerade. Det finns många olika CMS, vissa är relativt enkla och andra är komplexa och kraftfulla. Vanligtvis ingår i ett CMS är funktionerna för formathantering, webbaserad publicering, indexering, revisionskontroll, sökning och hämtning. Följande kommer för- Och nackdelar med CMS:
@@ -95,7 +96,7 @@ Jobba med strapi var något nytt för backend utveckling för mig som jobbar ida
 
 ## Tenta frågan
 
-#### •	Se samband och värdera alternativa lösningar vid val av programmeringsteknik vid utveckling av dynamiska webbplatser
+#### Se samband och värdera alternativa lösningar vid val av programmeringsteknik vid utveckling av dynamiska webbplatser
 
 Det enda verktyget som jag hade använt innan vi börjat med CMS för utveckling av dynamiska webbplatser, var ASP.net. Om jag ska jämföra de här två som jag känner till idag så jobba med CMS verktyget var smidigare än ASP.net. 
 
